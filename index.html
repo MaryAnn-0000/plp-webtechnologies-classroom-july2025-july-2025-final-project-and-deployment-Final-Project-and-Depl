@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Blog — Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="A simple responsive blog - Home" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">MyBlog</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="site-nav" class="nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Thoughts, Notes & Tutorials</h1>
+          <p>Welcome to my blog — short reads, practical tips, and the occasional deep dive.</p>
+          <a class="btn" href="#featured">Read featured</a>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero.png" alt="A calming desk with coffee and laptop" />
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="container featured">
+      <h2>Featured Posts</h2>
+      <div class="posts-grid">
+        <article class="post-card">
+          <img src="images/post1.png" alt="Post 1 image" />
+          <h3>How to write cleaner HTML</h3>
+          <p class="excerpt">Semantic tags, accessibility basics, and small habits that make a big difference.</p>
+          <a class="read-more" href="#">Read more →</a>
+        </article>
+
+        <article class="post-card">
+          <img src="images/post2.png" alt="Post 2 image" />
+          <h3>Responsive design checklist</h3>
+          <p class="excerpt">A practical checklist to help you make designs that look great on any device.</p>
+          <a class="read-more" href="#">Read more →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="container mini-about">
+      <div class="mini-about-grid">
+        <div>
+          <h3>About the Author</h3>
+          <p>Hi — I'm a developer and writer. I document what I learn and help others build web projects faster.</p>
+          <a href="about.html" class="btn-ghost">Learn more</a>
+        </div>
+        <div class="author-photo">
+          <img src="images/author.jpg" alt="Author photo"  />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> MyBlog — Built with ❤️</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

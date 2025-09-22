@@ -1,90 +1,66 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🌐 My Blog Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+This is my final assignment project for building, organizing, and deploying a multipage website.  
+The project demonstrates **HTML5, CSS3, JavaScript**, responsive design, interactivity, and deployment using GitHub Pages.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+## 🎯 Project Purpose
+The website is a simple **Blog Website** that showcases personal content and allows visitors to learn about me, view services, and send messages through a contact form.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+## 📑 Pages
+1. **Home** – Introduction and featured blog posts.  
+2. **About** – Blogger’s profile and mission.  
+3. **Services** – Services offered (e.g., content writing, tutorials).  
+4. **Contact** – Contact form connected to Formspree (`maryannwaithera@gmail.com`).
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+## 🛠️ Technologies Used
+- **HTML5** for structure  
+- **CSS3** (Flexbox & media queries) for styling and responsiveness  
+- **JavaScript** for interactivity (navigation toggle, form validation, Formspree integration)  
+- **Formspree** for email handling in the contact form  
+- **GitHub Pages** for hosting  
 
 ---
 
-## Deliverables
+## 📂 Folder Structure
+/css
+└── style.css
+/js
+└── script.js
+/images
+└── (site images)
+index.html
+about.html
+services.html
+contact.html
+README.md
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
 
 ---
 
-## Outcome
+## 🚀 Deployment
+The website is live here:  
+👉 [My Blog Website on GitHub Pages](https://your-username.github.io/my-blog-website/)
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+---
+
+## ✅ Features
+- Mobile-responsive layout  
+- Consistent header & footer across pages  
+- Interactive navigation menu  
+- Form validation + email submission via Formspree  
+- Organized, maintainable codebase  
+
+---
+
+## 👩 Author
+- **MaryAnn Waithera**  
+- Email: [maryannwaithera@gmail.com](mailto:maryannwaithera@gmail.com)
+
+---
+

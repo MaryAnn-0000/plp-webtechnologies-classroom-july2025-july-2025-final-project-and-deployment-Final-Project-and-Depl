@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — My Blog</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">MyBlog</a>
+      <button id="nav-toggle-4" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="site-nav-4" class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-content">
+    <h1>Contact</h1>
+    <p>Have questions or want to work together? Use the form below.</p>
+
+    <form id="contact-form" action="https://formspree.io/f/meorjzdy" method="POST" class="contact-form" novalidate>
+      <label>
+        <span>Name</span>
+        <input type="text" name="name" id="name" required />
+        <small class="error" id="name-error"></small>
+      </label>
+
+      <label>
+        <span>Email</span>
+        <input type="email" name="email" id="email" required />
+        <small class="error" id="email-error"></small>
+      </label>
+
+      <label>
+        <span>Message</span>
+        <textarea name="message" id="message" rows="5" required></textarea>
+        <small class="error" id="message-error"></small>
+      </label>
+
+      <button type="submit" class="btn">Send Message</button>
+    <p id="form-success" class="form-success" aria-live="polite"></p>
+    <p id="form-error" class="form-error" aria-live="polite"></p>
+  </form>
+
+  <p>Or email directly: <a href="mailto:maryannwaithera@gmail.com">maryannwaithera@gmail.com</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year-4"></span> MyBlog</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
