@@ -1,3 +1,5 @@
+Live link: https://maryann-0000.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
+
 # 🌐 My Blog Website
 
 This is my final assignment project for building, organizing, and deploying a multipage website.  
@@ -45,7 +47,7 @@ README.md
 
 ## 🚀 Deployment
 The website is live here:  
-👉 [My Blog Website on GitHub Pages](https://your-username.github.io/my-blog-website/)
+👉 [My Blog Website on GitHub Pages](https://maryann-0000.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 ---
 
